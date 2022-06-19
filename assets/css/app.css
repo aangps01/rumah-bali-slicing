@@ -51,10 +51,6 @@ header .navbar .nav-login {
   font-weight: 600;
 }
 
-main {
-  margin-bottom: 200px;
-}
-
 main section.hero .hero-content {
   position: relative;
   z-index: 1;
@@ -131,6 +127,7 @@ main section.hero .hero-image-container .hero-image {
 
 main section.preferred-property {
   margin-top: 82px;
+  margin-bottom: 78px;
   padding: 0 150px;
 }
 
@@ -257,5 +254,42 @@ main section.preferred-property .preferred-property-caption .button {
   color: #FFF;
   border-radius: 10px;
   font-weight: 600;
+}
+
+main section.popular-property {
+  margin-top: 78px;
+  padding: 78px 150px 0;
+}
+
+main section.popular-property .caption .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+main section.popular-property .caption .description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9FA3AD;
+  margin-bottom: 68px;
+}
+
+main section.popular-property .link {
+  display: block;
+  text-align: right;
+  color: #4370CB;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+main section.popular-property .content-container .card {
+  border-radius: 10px;
+}
+
+main section.popular-property .content-container .card .card-body img {
+  border-radius: 10px;
+  width: 100%;
 }
 /*# sourceMappingURL=app.css.map */

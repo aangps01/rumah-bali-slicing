@@ -55,8 +55,6 @@ header {
 }
 
 main {
-    margin-bottom: 200px;
-
     section.hero {
         .hero-content {
             position: relative;
@@ -135,6 +133,7 @@ main {
 
     section.preferred-property {
         margin-top: 82px;
+        margin-bottom: 78px;
         padding: 0 150px;
 
         .preferred-property-container {
@@ -260,6 +259,49 @@ main {
                 color: #FFF;
                 border-radius: 10px;
                 font-weight: 600;
+            }
+        }
+    }
+
+    section.popular-property {
+        margin-top: 78px;
+        padding: 78px 150px 0;
+
+        .caption {
+            .title {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 60px;
+                margin-bottom: 30px;
+            }
+
+            .description {
+                font-weight: 400;
+                font-size: 20px;
+                color: #9FA3AD;
+                margin-bottom: 68px;
+            }
+        }
+
+        .link {
+            display: block;
+            text-align: right;
+            color: #4370CB;
+            font-weight: 600;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .content-container {
+            .card {
+                border-radius: 10px;
+
+                .card-body {
+                    img {
+                        border-radius: 10px;
+                        width: 100%;
+                    }
+                }
             }
         }
     }
