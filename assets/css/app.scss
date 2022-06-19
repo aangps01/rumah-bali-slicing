@@ -3,28 +3,55 @@ body {
     background-color: #EEF2FC;
 }
 
+.navbar-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+.nav-content-sticky {
+    color: rgb(28, 27, 27);
+    font-weight: 500;
+}
+
+.nav-login-sticky {
+    background-color: #317dc9;
+    color: #FFF !important;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+
 header {
     padding: 0 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
-    .nav-item {
-        margin: 0 15px;
+    .navbar {
+        .nav-item {
+            margin: 0 15px;
+        }
+
+        .nav-content {
+            color: #EEF2FC !important;
+            font-weight: 500;
+        }
+
+        .nav-login {
+            background-color: #FAFCFE;
+            color: #232529 !important;
+            border-radius: 10px;
+            width: 100px;
+            text-align: center;
+            padding: 10px 10px;
+            font-weight: 600;
+        }
     }
 
-    .nav-link {
-        color: #EEF2FC !important;
-        font-weight: 500;
-    }
-
-    .btn-login {
-        background-color: #FAFCFE;
-        color: #232529 !important;
-        border-radius: 10px;
-        width: 100px;
-        text-align: center;
-        padding: 10px 10px;
-        font-weight: 600;
-    }
 }
 
 main {
@@ -235,6 +262,5 @@ main {
                 font-weight: 600;
             }
         }
-
     }
 }
