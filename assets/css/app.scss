@@ -38,11 +38,12 @@ main {
             flex-direction: column;
             justify-content: space-between;
             height: 90vh;
-            padding: 100px 150px;
+            padding: 130px 150px;
 
             .hero-title {
                 font-size: 48px;
                 font-weight: 800;
+                max-width: 800px;
                 color: #232529;
 
                 .custom-dot {
@@ -83,6 +84,7 @@ main {
             .hero-description {
                 display: flex;
                 align-items: center;
+                max-width: 500px;
 
                 .hero-caption {
                     margin: 0 15px;
@@ -105,43 +107,134 @@ main {
     }
 
     section.preferred-property {
-        margin-top: 150px;
+        margin-top: 82px;
         padding: 0 150px;
 
         .preferred-property-container {
-            display: flex;
-            padding: 10px;
+            max-height: 520px;
+            overflow: scroll;
+            overflow-x: hidden;
+            padding-right: 20px;
 
-            img {
-                max-width: 180px;
-            }
+            .card {
+                border-radius: 10px;
+                border: 0;
+                margin-bottom: 20px;
+                box-shadow: 0px 0px 30px rgba(174, 174, 174, 0.05);
 
-            .description {
-                padding: 30px 15px 0 15px;
-                width: 100%;
-
-                .property-name,
-                .property-owner {
-                    margin-bottom: 0;
-                }
-
-                .property-spec {
-                    padding: 0 15px;
+                .preferred-property-card-container {
                     display: flex;
-                    justify-content: space-between;
-                    width: 100%;
+                    padding: 10px;
 
-                    .spec {
-                        display: flex;
+                    img {
+                        border-radius: 10px;
+                        max-width: 180px;
+                    }
 
-                        // space between
-                        .spec-value {
-                            margin-left: 10px;
-                            padding: 0;
+                    .description {
+                        padding: 30px 15px 0 15px;
+                        width: 100%;
+                        position: relative;
+
+                        .property-category {
+                            position: absolute;
+                            right: 20px;
+                            top: 2px;
+                            font-size: 11px;
+                            background: #B4CDFD;
+                            border-radius: 10px;
+                            padding: 3px 10px;
+                            color: #FFFFFF;
+                            font-weight: 400;
+                        }
+
+                        .property-price {
+                            position: absolute;
+                            right: 20px;
+                            bottom: 40px;
+                            font-weight: bold;
+                            color: #6A707C;
+                            font-size: 24px;
+                        }
+
+                        .property-name {
+                            margin-bottom: 5px;
+                            color: #6A707C;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .property-owner {
+                            margin-bottom: 0;
+                            color: #9FA3AD;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+
+                        .property-spec {
+                            padding: 0 15px;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+
+                            .spec {
+                                display: flex;
+
+                                .fas,
+                                .spec-value {
+                                    color: #AEAEAE;
+                                    font-size: 11px;
+                                }
+
+                                .fas {
+                                    font-size: 14px;
+                                }
+
+                                .spec-value {
+                                    margin-left: 10px;
+                                    margin-bottom: 0;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+
+        .preferred-property-caption {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            margin-left: 50px;
+
+
+            .title {
+                max-width: 390px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 60px;
+            }
+
+            .description {
+                max-width: 460px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #9FA3AD;
+            }
+
+            .button {
+                height: 54px;
+                padding: 0;
+                line-height: 50px;
+                width: 25%;
+                text-decoration: none;
+                background-color: #4370CB !important;
+                color: #FFF;
+                border-radius: 10px;
+                font-weight: 600;
+            }
+        }
+
     }
 }

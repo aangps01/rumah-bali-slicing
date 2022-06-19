@@ -38,12 +38,13 @@ main section.hero .hero-content {
   flex-direction: column;
   justify-content: space-between;
   height: 90vh;
-  padding: 100px 150px;
+  padding: 130px 150px;
 }
 
 main section.hero .hero-content .hero-title {
   font-size: 48px;
   font-weight: 800;
+  max-width: 800px;
   color: #232529;
 }
 
@@ -84,6 +85,7 @@ main section.hero .hero-content .hero-search-container .hero-search .btn {
 main section.hero .hero-content .hero-description {
   display: flex;
   align-items: center;
+  max-width: 500px;
 }
 
 main section.hero .hero-content .hero-description .hero-caption {
@@ -104,42 +106,132 @@ main section.hero .hero-image-container .hero-image {
 }
 
 main section.preferred-property {
-  margin-top: 150px;
+  margin-top: 82px;
   padding: 0 150px;
 }
 
 main section.preferred-property .preferred-property-container {
+  max-height: 520px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-right: 20px;
+}
+
+main section.preferred-property .preferred-property-container .card {
+  border-radius: 10px;
+  border: 0;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 30px rgba(174, 174, 174, 0.05);
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container {
   display: flex;
   padding: 10px;
 }
 
-main section.preferred-property .preferred-property-container img {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container img {
+  border-radius: 10px;
   max-width: 180px;
 }
 
-main section.preferred-property .preferred-property-container .description {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description {
   padding: 30px 15px 0 15px;
   width: 100%;
+  position: relative;
 }
 
-main section.preferred-property .preferred-property-container .description .property-name,
-main section.preferred-property .preferred-property-container .description .property-owner {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-category {
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  font-size: 11px;
+  background: #B4CDFD;
+  border-radius: 10px;
+  padding: 3px 10px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-price {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  font-weight: bold;
+  color: #6A707C;
+  font-size: 24px;
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-name {
+  margin-bottom: 5px;
+  color: #6A707C;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-owner {
   margin-bottom: 0;
+  color: #9FA3AD;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-main section.preferred-property .preferred-property-container .description .property-spec {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec {
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-main section.preferred-property .preferred-property-container .description .property-spec .spec {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec {
   display: flex;
 }
 
-main section.preferred-property .preferred-property-container .description .property-spec .spec .spec-value {
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas,
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
+  color: #AEAEAE;
+  font-size: 11px;
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas {
+  font-size: 14px;
+}
+
+main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
   margin-left: 10px;
+  margin-bottom: 0;
+}
+
+main section.preferred-property .preferred-property-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 50px;
+}
+
+main section.preferred-property .preferred-property-caption .title {
+  max-width: 390px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+main section.preferred-property .preferred-property-caption .description {
+  max-width: 460px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #9FA3AD;
+}
+
+main section.preferred-property .preferred-property-caption .button {
+  height: 54px;
   padding: 0;
+  line-height: 50px;
+  width: 25%;
+  text-decoration: none;
+  background-color: #4370CB !important;
+  color: #FFF;
+  border-radius: 10px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=app.css.map */
