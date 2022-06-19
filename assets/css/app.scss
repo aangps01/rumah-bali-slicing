@@ -28,7 +28,9 @@ header {
 }
 
 main {
-    .hero {
+    margin-bottom: 200px;
+
+    section.hero {
         .hero-content {
             position: relative;
             z-index: 1;
@@ -36,7 +38,7 @@ main {
             flex-direction: column;
             justify-content: space-between;
             height: 90vh;
-            padding: 200px 150px;
+            padding: 100px 150px;
 
             .hero-title {
                 font-size: 48px;
@@ -78,7 +80,6 @@ main {
                 }
             }
 
-
             .hero-description {
                 display: flex;
                 align-items: center;
@@ -99,6 +100,47 @@ main {
                 background-size: cover;
                 background-position: center;
                 height: 100vh;
+            }
+        }
+    }
+
+    section.preferred-property {
+        margin-top: 150px;
+        padding: 0 150px;
+
+        .preferred-property-container {
+            display: flex;
+            padding: 10px;
+
+            img {
+                max-width: 180px;
+            }
+
+            .description {
+                padding: 30px 15px 0 15px;
+                width: 100%;
+
+                .property-name,
+                .property-owner {
+                    margin-bottom: 0;
+                }
+
+                .property-spec {
+                    padding: 0 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    .spec {
+                        display: flex;
+
+                        // space between
+                        .spec-value {
+                            margin-left: 10px;
+                            padding: 0;
+                        }
+                    }
+                }
             }
         }
     }
