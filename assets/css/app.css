@@ -47,15 +47,20 @@ main .hero .hero-content .hero-title .custom-dot {
   color: blue !important;
 }
 
-main .hero .hero-content .hero-search {
-  position: absolute;
+main .hero .hero-content .hero-search-container {
+  position: relative;
   z-index: 1;
-  top: 410px;
-  left: 150px;
-  right: -138px;
 }
 
-main .hero .hero-content .hero-search .form-control {
+main .hero .hero-content .hero-search-container .hero-search {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: -27px;
+  right: -288px;
+}
+
+main .hero .hero-content .hero-search-container .hero-search .form-control {
   border: 0px;
   background: #FFFFFF;
   box-shadow: -50px 30px 50px rgba(159, 163, 173, 0.15);
@@ -63,7 +68,7 @@ main .hero .hero-content .hero-search .form-control {
   font-family: "Font Awesome 5 Pro", Poppins, sans-serif;
 }
 
-main .hero .hero-content .hero-search .btn {
+main .hero .hero-content .hero-search-container .hero-search .btn {
   background-color: #4370CB;
   color: white;
   background: linear-gradient(180deg, #4370CB 0%, #5785E0 100%);
@@ -84,7 +89,7 @@ main .hero .hero-content .hero-description .hero-caption {
 main .hero .hero-image-container {
   position: relative;
   top: -65px;
-  height: 90vh;
+  max-height: 90vh;
 }
 
 main .hero .hero-image-container .hero-image {
