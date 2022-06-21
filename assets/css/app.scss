@@ -140,7 +140,7 @@ main {
             max-height: 520px;
             overflow: scroll;
             overflow-x: hidden;
-            padding-right: 20px;
+            padding-right: 10px;
 
             .card {
                 border-radius: 10px;
@@ -232,7 +232,7 @@ main {
             flex-direction: column;
             justify-content: center;
             height: 100%;
-            margin-left: 50px;
+            margin-left: 78px;
 
 
             .title {
@@ -301,8 +301,73 @@ main {
                         border-radius: 10px;
                         width: 100%;
                     }
+
+                    .content-title {
+                        margin-top: 13px;
+
+                        .property-name {
+                            margin-bottom: 5px;
+                            color: #6A707C;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .property-owner {
+                            margin-bottom: 0;
+                            color: #9FA3AD;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+
+                        .property-price {
+                            font-weight: bold;
+                            color: #6A707C;
+                            font-size: 24px;
+                        }
+
+                        .divider {
+                            margin: 20px 0px 25px;
+                        }
+
+                        .property-spec {
+                            padding: 0 15px;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+
+                            .spec {
+                                display: flex;
+
+                                .fas,
+                                .spec-value {
+                                    color: #AEAEAE;
+                                    font-size: 11px;
+                                }
+
+                                .fas {
+                                    font-size: 14px;
+                                }
+
+                                .spec-value {
+                                    margin-left: 10px;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
     }
+}
+
+footer {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background: #6A707C;
+    color: white;
 }

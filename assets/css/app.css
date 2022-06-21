@@ -135,7 +135,7 @@ main section.preferred-property .preferred-property-container {
   max-height: 520px;
   overflow: scroll;
   overflow-x: hidden;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 main section.preferred-property .preferred-property-container .card {
@@ -227,7 +227,7 @@ main section.preferred-property .preferred-property-caption {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin-left: 50px;
+  margin-left: 78px;
 }
 
 main section.preferred-property .preferred-property-caption .title {
@@ -291,5 +291,70 @@ main section.popular-property .content-container .card {
 main section.popular-property .content-container .card .card-body img {
   border-radius: 10px;
   width: 100%;
+}
+
+main section.popular-property .content-container .card .card-body .content-title {
+  margin-top: 13px;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-name {
+  margin-bottom: 5px;
+  color: #6A707C;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-owner {
+  margin-bottom: 0;
+  color: #9FA3AD;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-price {
+  font-weight: bold;
+  color: #6A707C;
+  font-size: 24px;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .divider {
+  margin: 20px 0px 25px;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-spec {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec {
+  display: flex;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+  color: #AEAEAE;
+  font-size: 11px;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas {
+  font-size: 14px;
+}
+
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+  background: #6A707C;
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */
