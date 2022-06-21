@@ -263,7 +263,8 @@ main {
         }
     }
 
-    section.popular-property {
+    section.popular-property,
+    section.all-property {
         margin-top: 78px;
         padding: 78px 150px 0;
 
@@ -295,6 +296,7 @@ main {
         .content-container {
             .card {
                 border-radius: 10px;
+                margin-bottom: 20px;
 
                 .card-body {
                     img {
@@ -362,7 +364,7 @@ main {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 195px;
     height: 100px;
     display: flex;
     justify-content: center;

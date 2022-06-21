@@ -256,26 +256,30 @@ main section.preferred-property .preferred-property-caption .button {
   font-weight: 600;
 }
 
-main section.popular-property {
+main section.popular-property,
+main section.all-property {
   margin-top: 78px;
   padding: 78px 150px 0;
 }
 
-main section.popular-property .caption .title {
+main section.popular-property .caption .title,
+main section.all-property .caption .title {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 30px;
 }
 
-main section.popular-property .caption .description {
+main section.popular-property .caption .description,
+main section.all-property .caption .description {
   font-weight: 400;
   font-size: 20px;
   color: #9FA3AD;
   margin-bottom: 68px;
 }
 
-main section.popular-property .link {
+main section.popular-property .link,
+main section.all-property .link {
   display: block;
   text-align: right;
   color: #4370CB;
@@ -284,71 +288,85 @@ main section.popular-property .link {
   text-decoration: none;
 }
 
-main section.popular-property .content-container .card {
+main section.popular-property .content-container .card,
+main section.all-property .content-container .card {
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-main section.popular-property .content-container .card .card-body img {
+main section.popular-property .content-container .card .card-body img,
+main section.all-property .content-container .card .card-body img {
   border-radius: 10px;
   width: 100%;
 }
 
-main section.popular-property .content-container .card .card-body .content-title {
+main section.popular-property .content-container .card .card-body .content-title,
+main section.all-property .content-container .card .card-body .content-title {
   margin-top: 13px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-name {
+main section.popular-property .content-container .card .card-body .content-title .property-name,
+main section.all-property .content-container .card .card-body .content-title .property-name {
   margin-bottom: 5px;
   color: #6A707C;
   font-size: 20px;
   font-weight: 600;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-owner {
+main section.popular-property .content-container .card .card-body .content-title .property-owner,
+main section.all-property .content-container .card .card-body .content-title .property-owner {
   margin-bottom: 0;
   color: #9FA3AD;
   font-size: 14px;
   font-weight: 400;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-price {
+main section.popular-property .content-container .card .card-body .content-title .property-price,
+main section.all-property .content-container .card .card-body .content-title .property-price {
   font-weight: bold;
   color: #6A707C;
   font-size: 24px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .divider {
+main section.popular-property .content-container .card .card-body .content-title .divider,
+main section.all-property .content-container .card .card-body .content-title .divider {
   margin: 20px 0px 25px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec {
+main section.popular-property .content-container .card .card-body .content-title .property-spec,
+main section.all-property .content-container .card .card-body .content-title .property-spec {
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec {
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec,
+main section.all-property .content-container .card .card-body .content-title .property-spec .spec {
   display: flex;
 }
 
 main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
+main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
   color: #AEAEAE;
   font-size: 11px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas {
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas {
   font-size: 14px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
+main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
   margin-left: 10px;
   margin-bottom: 0;
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 195px;
   height: 100px;
   display: flex;
   justify-content: center;
