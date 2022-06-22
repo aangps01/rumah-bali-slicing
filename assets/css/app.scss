@@ -396,32 +396,237 @@ body#detail {
     main {
         margin: 63px 150px 0;
 
-        .gallery {
+        section.gallery {
+            margin-bottom: 70px;
+
             .image-thumb-container {
                 max-height: 700px;
                 overflow: scroll;
                 overflow-x: hidden;
+                padding: 10px 10px;
 
                 .image-thumb-filter {
-                    margin-bottom: 10px;
+                    margin-bottom: 15px;
+                    background-color: rgba(255, 255, 255, 0.4);
+                    padding: 5px;
+                    width: 210px;
+                    box-sizing: border-box;
 
                     .image-thumb {
                         border-radius: 10px;
-                        width: 200px;
-                        height: 200px;
-                        background-size: cover;
+                        width: 100%;
+                        min-height: 180px;
+                        background-size: contain;
                         background-repeat: no-repeat;
+                        background-position: 50%;
                     }
                 }
             }
 
-            .main-image {
+            .main-image-container {
+                background-color: rgba(255, 255, 255, 0.4);
                 border-radius: 10px;
+                padding: 10px;
+                border-radius: 10px;
+
+                .main-image {
+                    width: 100%;
+                    height: 700px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                }
+            }
+        }
+
+        section.content {
+            .price-container {
+                .property-name {
+                    font-style: 20px;
+                    font-weight: 500;
+                }
+
+                .price {
+                    font-weight: 800;
+                    font-size: 48px;
+                }
+            }
+
+            .btn-ask {
+                padding: 14px 43px;
+                background-color: rgba(67, 112, 203, 1);
+                color: white;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                border-radius: 10px;
+
+            }
+
+            .love {
+                background-color: #fff;
+                font-size: 36px;
+                padding: 0 10px;
+                border-radius: 100%;
+            }
+
+            .divider {
+                margin: 64px 0px;
+            }
+
+            .description-container {
+                .description {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #9FA3AD;
+                    margin-bottom: 20px;
+                }
+
+                .read-less,
+                .read-more {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-decoration: none;
+                    color: #4370CB;
+                    margin-top: 48px !important;
+                }
+            }
+        }
+
+        section.spesification {
+            .spesification-name {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 60px;
+                color: #232529;
+                margin-bottom: 48px;
+            }
+
+            .property-spec {
+                padding: 0 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 width: 100%;
-                height: 700px;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: 50%;
+
+                .spec {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+
+                    .fas,
+                    .spec-value {
+                        color: #AEAEAE;
+                        font-size: 20px;
+                    }
+
+                    .fas {
+                        font-size: 20px;
+                    }
+
+                    .spec-value {
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+
+        section.popular-property {
+            padding: 78px 0px 0;
+
+            .caption {
+                .title {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 60px;
+                    margin-bottom: 30px;
+                }
+
+                .description {
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #9FA3AD;
+                    margin-bottom: 68px;
+                }
+            }
+
+            .link {
+                display: block;
+                text-align: right;
+                color: #4370CB;
+                font-weight: 600;
+                font-size: 24px;
+                text-decoration: none;
+            }
+
+            .content-container {
+                .card {
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+
+                    .card-body {
+                        img {
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+
+                        .content-title {
+                            margin-top: 13px;
+
+                            .property-name {
+                                margin-bottom: 5px;
+                                color: #6A707C;
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+
+                            .property-owner {
+                                margin-bottom: 0;
+                                color: #9FA3AD;
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+
+                            .property-price {
+                                font-weight: bold;
+                                color: #6A707C;
+                                font-size: 24px;
+                            }
+
+                            .divider {
+                                margin: 20px 0px 25px;
+                            }
+
+                            .property-spec {
+                                padding: 0 15px;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 100%;
+
+                                .spec {
+                                    display: flex;
+
+                                    .fas,
+                                    .spec-value {
+                                        color: #AEAEAE;
+                                        font-size: 11px;
+                                    }
+
+                                    .fas {
+                                        font-size: 14px;
+                                    }
+
+                                    .spec-value {
+                                        margin-left: 10px;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

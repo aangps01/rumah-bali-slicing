@@ -393,31 +393,223 @@ body#detail main {
   margin: 63px 150px 0;
 }
 
-body#detail main .gallery .image-thumb-container {
+body#detail main section.gallery {
+  margin-bottom: 70px;
+}
+
+body#detail main section.gallery .image-thumb-container {
   max-height: 700px;
   overflow: scroll;
   overflow-x: hidden;
+  padding: 10px 10px;
 }
 
-body#detail main .gallery .image-thumb-container .image-thumb-filter {
-  margin-bottom: 10px;
+body#detail main section.gallery .image-thumb-container .image-thumb-filter {
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  width: 210px;
+  box-sizing: border-box;
 }
 
-body#detail main .gallery .image-thumb-container .image-thumb-filter .image-thumb {
+body#detail main section.gallery .image-thumb-container .image-thumb-filter .image-thumb {
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  background-size: cover;
+  width: 100%;
+  min-height: 180px;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: 50%;
 }
 
-body#detail main .gallery .main-image {
+body#detail main section.gallery .main-image-container {
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body#detail main section.gallery .main-image-container .main-image {
   width: 100%;
   height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
+}
+
+body#detail main section.content .price-container .property-name {
+  font-style: 20px;
+  font-weight: 500;
+}
+
+body#detail main section.content .price-container .price {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+body#detail main section.content .btn-ask {
+  padding: 14px 43px;
+  background-color: #4370cb;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+body#detail main section.content .love {
+  background-color: #fff;
+  font-size: 36px;
+  padding: 0 10px;
+  border-radius: 100%;
+}
+
+body#detail main section.content .divider {
+  margin: 64px 0px;
+}
+
+body#detail main section.content .description-container .description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #9FA3AD;
+  margin-bottom: 20px;
+}
+
+body#detail main section.content .description-container .read-less,
+body#detail main section.content .description-container .read-more {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #4370CB;
+  margin-top: 48px !important;
+}
+
+body#detail main section.spesification .spesification-name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #232529;
+  margin-bottom: 48px;
+}
+
+body#detail main section.spesification .property-spec {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body#detail main section.spesification .property-spec .spec {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+body#detail main section.spesification .property-spec .spec .fas,
+body#detail main section.spesification .property-spec .spec .spec-value {
+  color: #AEAEAE;
+  font-size: 20px;
+}
+
+body#detail main section.spesification .property-spec .spec .fas {
+  font-size: 20px;
+}
+
+body#detail main section.spesification .property-spec .spec .spec-value {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+body#detail main section.popular-property {
+  padding: 78px 0px 0;
+}
+
+body#detail main section.popular-property .caption .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+body#detail main section.popular-property .caption .description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9FA3AD;
+  margin-bottom: 68px;
+}
+
+body#detail main section.popular-property .link {
+  display: block;
+  text-align: right;
+  color: #4370CB;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+body#detail main section.popular-property .content-container .card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title {
+  margin-top: 13px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-name {
+  margin-bottom: 5px;
+  color: #6A707C;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-owner {
+  margin-bottom: 0;
+  color: #9FA3AD;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-price {
+  font-weight: bold;
+  color: #6A707C;
+  font-size: 24px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .divider {
+  margin: 20px 0px 25px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec .spec {
+  display: flex;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+  color: #AEAEAE;
+  font-size: 11px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas {
+  font-size: 14px;
+}
+
+body#detail main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+  margin-left: 10px;
+  margin-bottom: 0;
 }
 
 footer {
