@@ -3,7 +3,7 @@ body {
   background-color: #EEF2FC;
 }
 
-.navbar-sticky {
+body#index .navbar-sticky {
   position: fixed;
   left: 0;
   right: 0;
@@ -12,12 +12,12 @@ body {
   transition: all 0.5s;
 }
 
-.nav-content-sticky {
+body#index .nav-content-sticky {
   color: #1c1b1b;
   font-weight: 500;
 }
 
-.nav-login-sticky {
+body#index .nav-login-sticky {
   background-color: #317dc9;
   color: #FFF !important;
   border-radius: 10px;
@@ -27,21 +27,21 @@ body {
   font-weight: 600;
 }
 
-header {
+body#index header {
   padding: 0 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-header .navbar .nav-item {
+body#index header .navbar .nav-item {
   margin: 0 15px;
 }
 
-header .navbar .nav-content {
+body#index header .navbar .nav-content {
   color: #EEF2FC !important;
   font-weight: 500;
 }
 
-header .navbar .nav-login {
+body#index header .navbar .nav-login {
   background-color: #FAFCFE;
   color: #232529 !important;
   border-radius: 10px;
@@ -51,7 +51,7 @@ header .navbar .nav-login {
   font-weight: 600;
 }
 
-main section.hero .hero-content {
+body#index main section.hero .hero-content {
   position: relative;
   z-index: 1;
   display: flex;
@@ -61,23 +61,23 @@ main section.hero .hero-content {
   padding: 130px 150px;
 }
 
-main section.hero .hero-content .hero-title {
+body#index main section.hero .hero-content .hero-title {
   font-size: 48px;
   font-weight: 800;
   max-width: 800px;
   color: #232529;
 }
 
-main section.hero .hero-content .hero-title .custom-dot {
+body#index main section.hero .hero-content .hero-title .custom-dot {
   color: blue !important;
 }
 
-main section.hero .hero-content .hero-search-container {
+body#index main section.hero .hero-content .hero-search-container {
   position: relative;
   z-index: 1;
 }
 
-main section.hero .hero-content .hero-search-container .hero-search {
+body#index main section.hero .hero-content .hero-search-container .hero-search {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -85,7 +85,7 @@ main section.hero .hero-content .hero-search-container .hero-search {
   right: -288px;
 }
 
-main section.hero .hero-content .hero-search-container .hero-search .form-control {
+body#index main section.hero .hero-content .hero-search-container .hero-search .form-control {
   border: 0px;
   background: #FFFFFF;
   box-shadow: -50px 30px 50px rgba(159, 163, 173, 0.15);
@@ -93,7 +93,7 @@ main section.hero .hero-content .hero-search-container .hero-search .form-contro
   font-family: "Font Awesome 5 Pro", Poppins, sans-serif;
 }
 
-main section.hero .hero-content .hero-search-container .hero-search .btn {
+body#index main section.hero .hero-content .hero-search-container .hero-search .btn {
   background-color: #4370CB;
   color: white;
   background: linear-gradient(180deg, #4370CB 0%, #5785E0 100%);
@@ -102,66 +102,66 @@ main section.hero .hero-content .hero-search-container .hero-search .btn {
   border-radius: 0px 10px 10px 0px;
 }
 
-main section.hero .hero-content .hero-description {
+body#index main section.hero .hero-content .hero-description {
   display: flex;
   align-items: center;
   max-width: 500px;
 }
 
-main section.hero .hero-content .hero-description .hero-caption {
+body#index main section.hero .hero-content .hero-description .hero-caption {
   margin: 0 15px;
 }
 
-main section.hero .hero-image-container {
+body#index main section.hero .hero-image-container {
   position: relative;
   top: -65px;
   max-height: 90vh;
 }
 
-main section.hero .hero-image-container .hero-image {
+body#index main section.hero .hero-image-container .hero-image {
   background-image: url("/assets/img/hero-image.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-main section.preferred-property {
+body#index main section.preferred-property {
   margin-top: 82px;
   margin-bottom: 78px;
   padding: 0 150px;
 }
 
-main section.preferred-property .preferred-property-container {
+body#index main section.preferred-property .preferred-property-container {
   max-height: 520px;
   overflow: scroll;
   overflow-x: hidden;
   padding-right: 10px;
 }
 
-main section.preferred-property .preferred-property-container .card {
+body#index main section.preferred-property .preferred-property-container .card {
   border-radius: 10px;
   border: 0;
   margin-bottom: 20px;
   box-shadow: 0px 0px 30px rgba(174, 174, 174, 0.05);
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container {
   display: flex;
   padding: 10px;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container img {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container img {
   border-radius: 10px;
   max-width: 180px;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description {
   padding: 30px 15px 0 15px;
   width: 100%;
   position: relative;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-category {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-category {
   position: absolute;
   right: 20px;
   top: 2px;
@@ -173,7 +173,7 @@ main section.preferred-property .preferred-property-container .card .preferred-p
   font-weight: 400;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-price {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-price {
   position: absolute;
   right: 20px;
   bottom: 40px;
@@ -182,47 +182,47 @@ main section.preferred-property .preferred-property-container .card .preferred-p
   font-size: 24px;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-name {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-name {
   margin-bottom: 5px;
   color: #6A707C;
   font-size: 20px;
   font-weight: 600;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-owner {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-owner {
   margin-bottom: 0;
   color: #9FA3AD;
   font-size: 14px;
   font-weight: 400;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec {
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec {
   display: flex;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas,
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas,
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
   color: #AEAEAE;
   font-size: 11px;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .fas {
   font-size: 14px;
 }
 
-main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
+body#index main section.preferred-property .preferred-property-container .card .preferred-property-card-container .description .property-spec .spec .spec-value {
   margin-left: 10px;
   margin-bottom: 0;
 }
 
-main section.preferred-property .preferred-property-caption {
+body#index main section.preferred-property .preferred-property-caption {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,21 +230,21 @@ main section.preferred-property .preferred-property-caption {
   margin-left: 78px;
 }
 
-main section.preferred-property .preferred-property-caption .title {
+body#index main section.preferred-property .preferred-property-caption .title {
   max-width: 390px;
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
 }
 
-main section.preferred-property .preferred-property-caption .description {
+body#index main section.preferred-property .preferred-property-caption .description {
   max-width: 460px;
   font-weight: 400;
   font-size: 20px;
   color: #9FA3AD;
 }
 
-main section.preferred-property .preferred-property-caption .button {
+body#index main section.preferred-property .preferred-property-caption .button {
   height: 54px;
   padding: 0;
   line-height: 50px;
@@ -256,30 +256,30 @@ main section.preferred-property .preferred-property-caption .button {
   font-weight: 600;
 }
 
-main section.popular-property,
-main section.all-property {
+body#index main section.popular-property,
+body#index main section.all-property {
   margin-top: 78px;
   padding: 78px 150px 0;
 }
 
-main section.popular-property .caption .title,
-main section.all-property .caption .title {
+body#index main section.popular-property .caption .title,
+body#index main section.all-property .caption .title {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 30px;
 }
 
-main section.popular-property .caption .description,
-main section.all-property .caption .description {
+body#index main section.popular-property .caption .description,
+body#index main section.all-property .caption .description {
   font-weight: 400;
   font-size: 20px;
   color: #9FA3AD;
   margin-bottom: 68px;
 }
 
-main section.popular-property .link,
-main section.all-property .link {
+body#index main section.popular-property .link,
+body#index main section.all-property .link {
   display: block;
   text-align: right;
   color: #4370CB;
@@ -288,81 +288,136 @@ main section.all-property .link {
   text-decoration: none;
 }
 
-main section.popular-property .content-container .card,
-main section.all-property .content-container .card {
+body#index main section.popular-property .content-container .card,
+body#index main section.all-property .content-container .card {
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-main section.popular-property .content-container .card .card-body img,
-main section.all-property .content-container .card .card-body img {
+body#index main section.popular-property .content-container .card .card-body img,
+body#index main section.all-property .content-container .card .card-body img {
   border-radius: 10px;
   width: 100%;
 }
 
-main section.popular-property .content-container .card .card-body .content-title,
-main section.all-property .content-container .card .card-body .content-title {
+body#index main section.popular-property .content-container .card .card-body .content-title,
+body#index main section.all-property .content-container .card .card-body .content-title {
   margin-top: 13px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-name,
-main section.all-property .content-container .card .card-body .content-title .property-name {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-name,
+body#index main section.all-property .content-container .card .card-body .content-title .property-name {
   margin-bottom: 5px;
   color: #6A707C;
   font-size: 20px;
   font-weight: 600;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-owner,
-main section.all-property .content-container .card .card-body .content-title .property-owner {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-owner,
+body#index main section.all-property .content-container .card .card-body .content-title .property-owner {
   margin-bottom: 0;
   color: #9FA3AD;
   font-size: 14px;
   font-weight: 400;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-price,
-main section.all-property .content-container .card .card-body .content-title .property-price {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-price,
+body#index main section.all-property .content-container .card .card-body .content-title .property-price {
   font-weight: bold;
   color: #6A707C;
   font-size: 24px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .divider,
-main section.all-property .content-container .card .card-body .content-title .divider {
+body#index main section.popular-property .content-container .card .card-body .content-title .divider,
+body#index main section.all-property .content-container .card .card-body .content-title .divider {
   margin: 20px 0px 25px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec,
-main section.all-property .content-container .card .card-body .content-title .property-spec {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec {
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec,
-main section.all-property .content-container .card .card-body .content-title .property-spec .spec {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec .spec,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec .spec {
   display: flex;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
-main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas,
-main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
   color: #AEAEAE;
   font-size: 11px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
-main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .fas,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec .spec .fas {
   font-size: 14px;
 }
 
-main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
-main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
+body#index main section.popular-property .content-container .card .card-body .content-title .property-spec .spec .spec-value,
+body#index main section.all-property .content-container .card .card-body .content-title .property-spec .spec .spec-value {
   margin-left: 10px;
   margin-bottom: 0;
+}
+
+body#detail header {
+  padding: 0 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+body#detail header .navbar .nav-item {
+  margin: 0 15px;
+}
+
+body#detail header .navbar .nav-content {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+body#detail header .navbar .nav-login {
+  background-color: #FAFCFE;
+  color: #232529 !important;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+
+body#detail main {
+  margin: 63px 150px 0;
+}
+
+body#detail main .gallery .image-thumb-container {
+  max-height: 700px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+body#detail main .gallery .image-thumb-container .image-thumb-filter {
+  margin-bottom: 10px;
+}
+
+body#detail main .gallery .image-thumb-container .image-thumb-filter .image-thumb {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body#detail main .gallery .main-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 footer {
