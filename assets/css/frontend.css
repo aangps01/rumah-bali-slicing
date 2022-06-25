@@ -722,6 +722,7 @@ body#register .card .card-items.item-form .sign-up a:hover {
 }
 
 @media screen and (max-width: 769px) {
+
   body#login .card .card-items.item-image,
   body#register .card .card-items.item-image {
     border-radius: 10px 10px 0px 0px;
@@ -738,4 +739,5 @@ footer {
   background: #6A707C;
   color: white;
 }
-/*# sourceMappingURL=app.css.map */
+
+/*# sourceMappingURL=frontend.css.map */
