@@ -612,19 +612,6 @@ body#detail main section.popular-property .content-container .card .card-body .c
   margin-bottom: 0;
 }
 
-body#login,
-body#register {
-  /* @media screen and (min-width: 987px) {
-    .card .card-items.item-image {
-        background: url("https://factsofindonesia.com/wp-content/uploads/2020/10/traditional-house-of-balinese.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 10px 0px 0px 10px;
-        height: auto;
-      }
-  } */
-}
-
 body#login body,
 body#register body {
   background-color: #fafcfe;
