@@ -119,7 +119,7 @@ body#index main section.hero .hero-image-container {
 }
 
 body#index main section.hero .hero-image-container .hero-image {
-  background-image: url("./assets/img/hero-image.jpg");
+  background-image: url("../img/hero-image.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
