@@ -75,7 +75,7 @@ body#index {
                     color: #232529;
 
                     .custom-dot {
-                        color: blue !important;
+                        color: #4370CB !important;
                     }
                 }
 
@@ -226,6 +226,9 @@ body#index {
                                 }
                             }
                         }
+                    }
+                    a {
+                        text-decoration: none;
                     }
                 }
             }

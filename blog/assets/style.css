@@ -1,0 +1,76 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+    background-color: #B4CDFD;
+    padding: 50px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.jumbotron .display-4 {
+    font-weight: 700;
+}
+
+.jumbotron .btn {
+    padding: 15px 60px;
+    background-color: #4370CB;
+}
+
+.jumbotron .btn:hover {
+    padding: 15px 60px;
+    background-color: #20458e;
+}
+
+.article .container a {
+    text-decoration: none;
+    color: #727881;
+}
+.article .container .card-container {
+    padding: 10px;
+}
+
+.article .container .card-container .card {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.article .container .card-container .card .article-image img {
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    border-radius: 10px 10px 0 0;
+}
+
+.article .container .card-container .card .article-content {
+    padding: 10px 20px;
+}
+
+footer {
+    margin-top: 195px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background: #6A707C;
+    color: white;
+}
+
+.detail-image {
+    background: url('https://1.bp.blogspot.com/-NFmVe16xZa4/X6NzXmZQj6I/AAAAAAAAaVs/XICjWfgnU7QdpkZE_cvIT7DFS_Q6-fw8ACLcBGAsYHQ/s720/27798062_1541149012667777_5252505603404055713_o.jpg');
+    background-position: center;
+    background-repeat: none;
+}
+
+.detail-content p {
+    text-align: justify;
+    line-height: 2;
+}
