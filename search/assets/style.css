@@ -1,17 +1,21 @@
 .body {
     font-family: 'Poppins',sans-serif;
+    background-color: #EEF2FC;
 }
+
+
 .container .jumbotron {
     margin-top: 50px;
     border-radius: 10px;
-    background-color: #eee;
+    background: linear-gradient(
+        to right, #4370CB,#8cace7
+    );
     margin-bottom: 0;
 }
 
 .container .row.search-box {
     margin-top: -30px;
     padding: 0;
-    
 }
 
 .container .row .search-box-input {
@@ -42,6 +46,17 @@
     border: none;
 }
 
+.container .row .search-box-input .row button:hover{
+    background-color: #244b99;
+    border: none;
+    box-shadow: none;
+}
+
+.container .row .search-box-input .row button:focus{
+    border: none;
+    box-shadow: none;
+}
+
 .search-result .container {
     margin-top: 50px;
 }
@@ -64,4 +79,15 @@
     border: none;
     border-radius: 10px;
     
+}
+
+footer {
+    margin-top: 195px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background: #6A707C;
+    color: white;
 }
